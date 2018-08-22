@@ -1,0 +1,26 @@
+//****All away related rules should be put in this file!*****
+
+
+//This is used for turning on floodlights and barn lights automatically when it is dark and Nest shows us being away
+rule "Turn_Lights_On"
+when
+      Channel "astro:sun:76dc9c2a:set#start" triggered START //When the sunset for G-Town fires then it will trigger light
+then  
+if(Away.state() == "HOME" ) //If statement will see if away is selected or not.
+{
+      Flood_Lights.sendCommand(ON)
+      Barn_Lights.sendCommand(ON)
+}
+end
+
+rule "Turn_Lights_Off"
+when
+/*This will turn off a few hours after sunset. I think this is the part i may have to change because i do not think
+it will stay on long enough for us. Cross this bridge when i get there!
+*/
+      Channel "astro:sun:76dc9c2a:night#start" triggered START 
+then
+      Flood_Lights.sendCommand(OFF)
+      Barn_Lights.sendCommand(OFF)
+
+end

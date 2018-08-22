@@ -1,0 +1,12 @@
+{
+  "Home": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [],
+      "label": "Our Home",
+      "category": "house"
+    }
+  }
+}

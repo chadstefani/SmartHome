@@ -1,0 +1,27 @@
+//****All Goat related rules should be put in this file*****
+
+/* Goat heat lamp will turn on if temp is below a certain degree that night.
+  This will turn on when temp reaches below 38F
+*/
+rule "Goat_Heat_Lamp_On"
+when
+      /*THis will allow the heat lamp to turn on every min!
+      Time cron "0 0/1 * * * ?"
+      */
+      Channel "astro:sun:76dc9c2a:set#start" triggered START //When the sunset for G-Town fires then it will trigger light
+then
+
+//This temp comparision is comparing in celcius. I am to lazy to change so i just set it accordingly.
+if(Temperature_Outside.state() <= 4 ) //If statement that will check to make sure temp is 38 or below.
+{
+      Goat_Heat_Lamp.sendCommand(ON)
+}
+end
+//This will turn light off in the morning after being cold that night
+rule "Turn_OFF_Heat_Lamp"
+when
+      Channel "astro:sun:76dc9c2a:rise#start" triggered START //When the sunrise for G-Town fires then it will trigger off heat
+then
+Goat_Heat_Lamp.sendCommand(OFF)
+end
+

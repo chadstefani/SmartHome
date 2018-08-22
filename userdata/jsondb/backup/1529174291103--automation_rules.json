@@ -1,0 +1,31 @@
+{
+  "20b90425-2038-4761-9db0-2c970af6e79e": {
+    "class": "org.eclipse.smarthome.automation.Rule",
+    "value": {
+      "triggers": [
+        {
+          "id": "1",
+          "label": "an item receives a command",
+          "description": "This triggers the rule if an item receives a command.",
+          "configuration": {
+            "properties": {
+              "itemName": "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_away",
+              "command": "CLOSED"
+            }
+          },
+          "type": "core.ItemCommandTrigger"
+        }
+      ],
+      "conditions": [],
+      "actions": [],
+      "configuration": {
+        "properties": {}
+      },
+      "configDescriptions": [],
+      "uid": "20b90425-2038-4761-9db0-2c970af6e79e",
+      "name": "d",
+      "tags": [],
+      "visibility": "VISIBLE"
+    }
+  }
+}

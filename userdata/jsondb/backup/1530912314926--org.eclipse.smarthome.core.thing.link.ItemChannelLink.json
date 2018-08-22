@@ -1,0 +1,1703 @@
+{
+  "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_mode -\u003e nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:mode": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "60c89b7f",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "mode"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_mode"
+    }
+  },
+  "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_time_to_target_mins -\u003e nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:time_to_target_mins": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "60c89b7f",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "time_to_target_mins"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_time_to_target_mins"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDawn_end -\u003e astro:sun:76dc9c2a:nauticDawn#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDawn#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDawn_end"
+    }
+  },
+  "astro_sun_76dc9c2a_night_duration -\u003e astro:sun:76dc9c2a:night#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "night#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_night_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_set_end -\u003e astro:sun:76dc9c2a:set#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "set#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_set_end"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDawn_event -\u003e astro:sun:76dc9c2a:nauticDawn#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDawn#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDawn_event"
+    }
+  },
+  "astro_sun_76dc9c2a_night_start -\u003e astro:sun:76dc9c2a:night#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "night#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_night_start"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDusk_event -\u003e astro:sun:76dc9c2a:civilDusk#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDusk#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDusk_event"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDusk_start -\u003e astro:sun:76dc9c2a:civilDusk#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDusk#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDusk_start"
+    }
+  },
+  "astro_sun_76dc9c2a_noon_start -\u003e astro:sun:76dc9c2a:noon#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "noon#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_noon_start"
+    }
+  },
+  "network_pingdevice_192_168_1_120_lastseen -\u003e network:pingdevice:192_168_1_120:lastseen": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_120",
+          "lastseen"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_pingdevice_192_168_1_120_lastseen"
+    }
+  },
+  "NestThermostat_Temperature -\u003e nest:thermostat:ea5ba7db:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "ea5ba7db",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "NestThermostat_Temperature"
+    }
+  },
+  "astro_sun_76dc9c2a_eveningNight_duration -\u003e astro:sun:76dc9c2a:eveningNight#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eveningNight#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eveningNight_duration"
+    }
+  },
+  "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_time_zone -\u003e nest:structure:cc11b20b:P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA:time_zone": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "cc11b20b",
+          "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+          "time_zone"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_time_zone"
+    }
+  },
+  "astro_sun_76dc9c2a_radiation_total -\u003e astro:sun:76dc9c2a:radiation#total": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "radiation#total"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_radiation_total"
+    }
+  },
+  "astro_sun_76dc9c2a_eveningNight_end -\u003e astro:sun:76dc9c2a:eveningNight#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eveningNight#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eveningNight_end"
+    }
+  },
+  "tplinksmarthome_hs200_12E98B_switch -\u003e tplinksmarthome:hs200:12E98B:switch": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "tplinksmarthome",
+          "hs200",
+          "12E98B",
+          "switch"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "tplinksmarthome_hs200_12E98B_switch"
+    }
+  },
+  "astro_sun_76dc9c2a_morningNight_duration -\u003e astro:sun:76dc9c2a:morningNight#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "morningNight#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_morningNight_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDawn_end -\u003e astro:sun:76dc9c2a:civilDawn#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDawn#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDawn_end"
+    }
+  },
+  "astro_sun_76dc9c2a_eclipse_event -\u003e astro:sun:76dc9c2a:eclipse#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eclipse#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eclipse_event"
+    }
+  },
+  "astro_sun_76dc9c2a_daylight_end -\u003e astro:sun:76dc9c2a:daylight#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "daylight#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_daylight_end"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDawn_end -\u003e astro:sun:76dc9c2a:astroDawn#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDawn#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDawn_end"
+    }
+  },
+  "network_servicedevice_192_168_1_1_80_online -\u003e network:servicedevice:192_168_1_1_80:online": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_1_1_80",
+          "online"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_servicedevice_192_168_1_1_80_online"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDusk_start -\u003e astro:sun:76dc9c2a:nauticDusk#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDusk#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDusk_start"
+    }
+  },
+  "yahooweather_weather_98ac930e_humidity -\u003e yahooweather:weather:98ac930e:humidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "98ac930e",
+          "humidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "yahooweather_weather_98ac930e_humidity"
+    }
+  },
+  "astro_sun_76dc9c2a_position_azimuth -\u003e astro:sun:76dc9c2a:position#azimuth": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "position#azimuth"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_position_azimuth"
+    }
+  },
+  "astro_sun_76dc9c2a_season_name -\u003e astro:sun:76dc9c2a:season#name": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "season#name"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_season_name"
+    }
+  },
+  "astro_sun_76dc9c2a_phase_name -\u003e astro:sun:76dc9c2a:phase#name": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "phase#name"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_phase_name"
+    }
+  },
+  "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_rush_hour_rewards_enrollment -\u003e nest:structure:cc11b20b:P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA:rush_hour_rewards_enrollment": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "cc11b20b",
+          "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+          "rush_hour_rewards_enrollment"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_rush_hour_rewards_enrollment"
+    }
+  },
+  "astro_sun_76dc9c2a_eveningNight_start -\u003e astro:sun:76dc9c2a:eveningNight#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eveningNight#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eveningNight_start"
+    }
+  },
+  "astro_sun_76dc9c2a_eclipse_partial -\u003e astro:sun:76dc9c2a:eclipse#partial": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eclipse#partial"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eclipse_partial"
+    }
+  },
+  "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_temperature -\u003e nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "60c89b7f",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_temperature"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDusk_start -\u003e astro:sun:76dc9c2a:astroDusk#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDusk#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDusk_start"
+    }
+  },
+  "LivingRoomThermostat_Temperature -\u003e nest:thermostat:8e707f3b:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "8e707f3b",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "LivingRoomThermostat_Temperature"
+    }
+  },
+  "nest_structure_60c89b7f__s_1j2_r1yczodUcSPBWAbjZqbA9f_cspuyTKngZC_278vNhw1f1Gw_away -\u003e nest:structure:60c89b7f:-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw:away": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "60c89b7f",
+          "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+          "away"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_60c89b7f__s_1j2_r1yczodUcSPBWAbjZqbA9f_cspuyTKngZC_278vNhw1f1Gw_away"
+    }
+  },
+  "astro_sun_76dc9c2a_rise_event -\u003e astro:sun:76dc9c2a:rise#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "rise#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_rise_event"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDawn_event -\u003e astro:sun:76dc9c2a:astroDawn#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDawn#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDawn_event"
+    }
+  },
+  "LivingRoomThermostat_Humidity -\u003e nest:thermostat:0f65c6fb:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:humidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "0f65c6fb",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "humidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "LivingRoomThermostat_Humidity"
+    }
+  },
+  "astro_sun_76dc9c2a_eveningNight_event -\u003e astro:sun:76dc9c2a:eveningNight#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eveningNight#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eveningNight_event"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDawn_duration -\u003e astro:sun:76dc9c2a:civilDawn#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDawn#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDawn_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDawn_event -\u003e astro:sun:76dc9c2a:civilDawn#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDawn#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDawn_event"
+    }
+  },
+  "astro_sun_76dc9c2a_noon_duration -\u003e astro:sun:76dc9c2a:noon#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "noon#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_noon_duration"
+    }
+  },
+  "yahooweather_weather_98ac930e_pressure -\u003e yahooweather:weather:98ac930e:pressure": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "98ac930e",
+          "pressure"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "yahooweather_weather_98ac930e_pressure"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDawn_duration -\u003e astro:sun:76dc9c2a:nauticDawn#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDawn#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDawn_duration"
+    }
+  },
+  "LivingRoomThermostat_Temperature -\u003e nest:thermostat:0f65c6fb:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "0f65c6fb",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "LivingRoomThermostat_Temperature"
+    }
+  },
+  "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_smoke_alarm_state -\u003e nest:structure:cc11b20b:P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA:smoke_alarm_state": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "cc11b20b",
+          "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+          "smoke_alarm_state"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_smoke_alarm_state"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDawn_duration -\u003e astro:sun:76dc9c2a:astroDawn#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDawn#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDawn_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_zodiac_start -\u003e astro:sun:76dc9c2a:zodiac#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "zodiac#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_zodiac_start"
+    }
+  },
+  "astro_sun_76dc9c2a_radiation_direct -\u003e astro:sun:76dc9c2a:radiation#direct": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "radiation#direct"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_radiation_direct"
+    }
+  },
+  "astro_sun_76dc9c2a_eclipse_total -\u003e astro:sun:76dc9c2a:eclipse#total": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eclipse#total"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eclipse_total"
+    }
+  },
+  "network_servicedevice_192_168_1_1_80_latency -\u003e network:servicedevice:192_168_1_1_80:latency": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_1_1_80",
+          "latency"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_servicedevice_192_168_1_1_80_latency"
+    }
+  },
+  "yahooweather_weather_98ac930e_temperature -\u003e yahooweather:weather:98ac930e:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "98ac930e",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "yahooweather_weather_98ac930e_temperature"
+    }
+  },
+  "astro_sun_76dc9c2a_night_event -\u003e astro:sun:76dc9c2a:night#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "night#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_night_event"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDusk_end -\u003e astro:sun:76dc9c2a:nauticDusk#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDusk#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDusk_end"
+    }
+  },
+  "network_servicedevice_192_168_1_1_80_lastseen -\u003e network:servicedevice:192_168_1_1_80:lastseen": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_1_1_80",
+          "lastseen"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_servicedevice_192_168_1_1_80_lastseen"
+    }
+  },
+  "astro_sun_76dc9c2a_night_end -\u003e astro:sun:76dc9c2a:night#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "night#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_night_end"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDusk_end -\u003e astro:sun:76dc9c2a:civilDusk#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDusk#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDusk_end"
+    }
+  },
+  "astro_sun_76dc9c2a_daylight_start -\u003e astro:sun:76dc9c2a:daylight#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "daylight#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_daylight_start"
+    }
+  },
+  "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_away -\u003e nest:structure:cc11b20b:P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA:away": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "cc11b20b",
+          "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+          "away"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_away"
+    }
+  },
+  "astro_sun_76dc9c2a_rise_start -\u003e astro:sun:76dc9c2a:rise#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "rise#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_rise_start"
+    }
+  },
+  "tplinksmarthome_hs105_5E10E3_switch -\u003e tplinksmarthome:hs105:5E10E3:switch": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "tplinksmarthome",
+          "hs105",
+          "5E10E3",
+          "switch"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "tplinksmarthome_hs105_5E10E3_switch"
+    }
+  },
+  "network_pingdevice_192_168_1_120_online -\u003e network:pingdevice:192_168_1_120:online": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_120",
+          "online"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_pingdevice_192_168_1_120_online"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDusk_duration -\u003e astro:sun:76dc9c2a:civilDusk#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDusk#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDusk_duration"
+    }
+  },
+  "nest_camera_cc11b20b_qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA_streaming -\u003e nest:camera:cc11b20b:qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA:streaming": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "camera",
+          "cc11b20b",
+          "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+          "streaming"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_camera_cc11b20b_qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA_streaming"
+    }
+  },
+  "astro_sun_76dc9c2a_morningNight_event -\u003e astro:sun:76dc9c2a:morningNight#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "morningNight#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_morningNight_event"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDusk_duration -\u003e astro:sun:76dc9c2a:nauticDusk#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDusk#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDusk_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_eclipse_ring -\u003e astro:sun:76dc9c2a:eclipse#ring": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "eclipse#ring"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_eclipse_ring"
+    }
+  },
+  "astro_sun_76dc9c2a_season_autumn -\u003e astro:sun:76dc9c2a:season#autumn": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "season#autumn"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_season_autumn"
+    }
+  },
+  "astro_sun_76dc9c2a_season_summer -\u003e astro:sun:76dc9c2a:season#summer": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "season#summer"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_season_summer"
+    }
+  },
+  "Home_TimeZone -\u003e nest:structure:8e707f3b:-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw:time_zone": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "8e707f3b",
+          "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+          "time_zone"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Home_TimeZone"
+    }
+  },
+  "astro_sun_76dc9c2a_set_duration -\u003e astro:sun:76dc9c2a:set#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "set#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_set_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_noon_end -\u003e astro:sun:76dc9c2a:noon#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "noon#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_noon_end"
+    }
+  },
+  "astro_sun_76dc9c2a_zodiac_end -\u003e astro:sun:76dc9c2a:zodiac#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "zodiac#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_zodiac_end"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDusk_event -\u003e astro:sun:76dc9c2a:astroDusk#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDusk#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDusk_event"
+    }
+  },
+  "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_co_alarm_state -\u003e nest:structure:cc11b20b:P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA:co_alarm_state": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "structure",
+          "cc11b20b",
+          "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+          "co_alarm_state"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_structure_cc11b20b_P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA_co_alarm_state"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDawn_start -\u003e astro:sun:76dc9c2a:astroDawn#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDawn#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDawn_start"
+    }
+  },
+  "nest_camera_cc11b20b_qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA_web_url -\u003e nest:camera:cc11b20b:qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA:web_url": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "camera",
+          "cc11b20b",
+          "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+          "web_url"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_camera_cc11b20b_qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA_web_url"
+    }
+  },
+  "astro_sun_76dc9c2a_season_spring -\u003e astro:sun:76dc9c2a:season#spring": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "season#spring"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_season_spring"
+    }
+  },
+  "astro_sun_76dc9c2a_set_start -\u003e astro:sun:76dc9c2a:set#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "set#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_set_start"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDusk_duration -\u003e astro:sun:76dc9c2a:astroDusk#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDusk#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDusk_duration"
+    }
+  },
+  "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_set_point -\u003e nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:set_point": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "60c89b7f",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "set_point"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_set_point"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDusk_event -\u003e astro:sun:76dc9c2a:nauticDusk#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDusk#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDusk_event"
+    }
+  },
+  "astro_sun_76dc9c2a_zodiac_sign -\u003e astro:sun:76dc9c2a:zodiac#sign": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "zodiac#sign"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_zodiac_sign"
+    }
+  },
+  "astro_sun_76dc9c2a_morningNight_end -\u003e astro:sun:76dc9c2a:morningNight#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "morningNight#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_morningNight_end"
+    }
+  },
+  "astro_sun_76dc9c2a_rise_end -\u003e astro:sun:76dc9c2a:rise#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "rise#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_rise_end"
+    }
+  },
+  "astro_sun_76dc9c2a_season_winter -\u003e astro:sun:76dc9c2a:season#winter": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "season#winter"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_season_winter"
+    }
+  },
+  "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_humidity -\u003e nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:humidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "60c89b7f",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "humidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "nest_thermostat_60c89b7f_tb4rid59zOayu2dxyO8AunxIzE_AtqZC_humidity"
+    }
+  },
+  "astro_sun_76dc9c2a_nauticDawn_start -\u003e astro:sun:76dc9c2a:nauticDawn#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "nauticDawn#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_nauticDawn_start"
+    }
+  },
+  "astro_sun_76dc9c2a_radiation_diffuse -\u003e astro:sun:76dc9c2a:radiation#diffuse": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "radiation#diffuse"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_radiation_diffuse"
+    }
+  },
+  "astro_sun_76dc9c2a_astroDusk_end -\u003e astro:sun:76dc9c2a:astroDusk#end": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "astroDusk#end"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_astroDusk_end"
+    }
+  },
+  "astro_sun_76dc9c2a_civilDawn_start -\u003e astro:sun:76dc9c2a:civilDawn#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "civilDawn#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_civilDawn_start"
+    }
+  },
+  "astro_sun_76dc9c2a_rise_duration -\u003e astro:sun:76dc9c2a:rise#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "rise#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_rise_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_daylight_event -\u003e astro:sun:76dc9c2a:daylight#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "daylight#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_daylight_event"
+    }
+  },
+  "astro_sun_76dc9c2a_morningNight_start -\u003e astro:sun:76dc9c2a:morningNight#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "morningNight#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_morningNight_start"
+    }
+  },
+  "astro_sun_76dc9c2a_daylight_duration -\u003e astro:sun:76dc9c2a:daylight#duration": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "daylight#duration"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_daylight_duration"
+    }
+  },
+  "astro_sun_76dc9c2a_set_event -\u003e astro:sun:76dc9c2a:set#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "set#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_set_event"
+    }
+  },
+  "LivingRoomThermostat_Humidity -\u003e nest:thermostat:8e707f3b:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:humidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "8e707f3b",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+          "humidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "LivingRoomThermostat_Humidity"
+    }
+  },
+  "astro_sun_76dc9c2a_noon_event -\u003e astro:sun:76dc9c2a:noon#event": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "noon#event"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_noon_event"
+    }
+  },
+  "astro_sun_76dc9c2a_position_elevation -\u003e astro:sun:76dc9c2a:position#elevation": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a",
+          "position#elevation"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "astro_sun_76dc9c2a_position_elevation"
+    }
+  }
+}

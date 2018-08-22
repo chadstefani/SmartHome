@@ -1,0 +1,36 @@
+sitemap default label="Stefani Smart Home"
+{
+    Switch item=Chads_Mobile label="Chads mobile"
+    Switch item=DeviceprovidingaWebserver label="My wallplug"
+    //Switch item= KitchenLights label="my kit"
+    //Switch item= BedroomLights label="Bedroom"
+
+    Frame label="Nest Thermostat" 
+    {
+        Text item=Temperature_Outside label="Outside Temperature"
+        Text item=Home_Temp label="Home Temp"
+        Text item=Mode label="Mode"
+        Text item=Away label="Home/Away"
+        Text item=Humidity label="Humidity"
+        Switch item=Web_Camera label="Nest Cam"
+       
+    }
+    Frame label="Goat Barn"
+    {
+        Switch item=Goat_Heat_Lamp label="Heat Lamp"
+        Switch item=Barn_Lights label="Barn Lights"
+    }
+
+    Frame label="Home Lights"
+    {
+        Switch item=Bed_Light label="Bed Light"
+        Switch item=Flood_Lights label="Flood Lights"
+    }
+     /* This will help troubleshoot sunrise and sunset times
+     Frame label="Home Lights"
+    {
+    Text item=Sunrise_Time label="sunrise"
+    Text item=Sunset_Time label="sunset"
+    }
+    */
+}

@@ -1,0 +1,3753 @@
+{
+  "nest:structure:60c89b7f:-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Home",
+      "bridgeUID": {
+        "segments": [
+          "nest",
+          "account",
+          "60c89b7f"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "country_code"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "CountryCode"
+            ]
+          },
+          "label": "Country Code",
+          "description": "Country code of the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "postal_code"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PostalCode"
+            ]
+          },
+          "label": "Postal Code",
+          "description": "Postal code of the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "time_zone"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "TimeZone"
+            ]
+          },
+          "label": "Time Zone",
+          "description": "The time zone for the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "peak_period_start_time"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PeakPeriodStartTime"
+            ]
+          },
+          "label": "Peak Period Start Time",
+          "description": "Peak period start for the Rush Hour Rewards program",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "peak_period_end_time"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PeakPeriodEndTime"
+            ]
+          },
+          "label": "Peak Period End Time",
+          "description": "Peak period end for the Rush Hour Rewards program",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "rush_hour_rewards_enrollment"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "RushHourRewardsEnrollment"
+            ]
+          },
+          "label": "Rush Hour Rewards",
+          "description": "If rush hour rewards system is enabled or not",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "eta_begin"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "EtaBegin"
+            ]
+          },
+          "label": "ETA",
+          "description": "Estimated time of arrival at home, will setup the heat to turn on and be warm by the time you arrive",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "co_alarm_state"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "CoAlarmState"
+            ]
+          },
+          "label": "CO Alarm State",
+          "description": "Carbon monoxide alarm state",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "smoke_alarm_state"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "SmokeAlarmState"
+            ]
+          },
+          "label": "Smoke Alarm State",
+          "description": "Smoke alarm state",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "60c89b7f",
+              "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw",
+              "away"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Away"
+            ]
+          },
+          "label": "Away",
+          "description": "Away state of the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "structureId": "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw"
+        }
+      },
+      "properties": {
+        "vendor": "Nest"
+      },
+      "uid": {
+        "segments": [
+          "nest",
+          "structure",
+          "60c89b7f",
+          "-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "structure"
+        ]
+      }
+    }
+  },
+  "nest:account:cc11b20b": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Nest Account",
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "pincode": "",
+          "productSecret": "WLlpNRHT9dA67VhcG9d1eB1tc",
+          "productId": "db348a30-7638-4d30-a96d-d0c35ac52b64",
+          "accessToken": "c.vQBnaHlj6MQOENIejvmrxChLtnHJ0x7g8XGjXFzQlqcJXpgHjcPvgx7STZTDkqauhkFj9BLby6jkFmu0alFifV2E9nnSc77GN2dObsVeYNXSxiQ7yfJnQLy4my4bRU6xmLOgyNEvWeG1Lt4C"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "nest",
+          "account",
+          "cc11b20b"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "account"
+        ]
+      }
+    }
+  },
+  "network:servicedevice:192_168_1_1_80": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Device providing a Webserver (192.168.1.1:80)",
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "servicedevice",
+              "192_168_1_1_80",
+              "online"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "online"
+            ]
+          },
+          "label": "Online",
+          "description": "States whether a device is online or offline",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "servicedevice",
+              "192_168_1_1_80",
+              "latency"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "latency"
+            ]
+          },
+          "label": "Latency (ms)",
+          "description": "States the latency time in milliseconds",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "servicedevice",
+              "192_168_1_1_80",
+              "lastseen"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "lastseen"
+            ]
+          },
+          "label": "Last seen",
+          "description": "States the last seen date/time",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "hostname": "192.168.1.1",
+          "refresh_interval": 60000,
+          "port": 80,
+          "retry": 1,
+          "timeout": 5000
+        }
+      },
+      "properties": {
+        "uses_dhcp_listen": "no",
+        "dhcp_state": "off",
+        "presence_detection_type": "TCP_CONNECTION",
+        "arp_state": "Disabled",
+        "uses_ios_wakeup": "Off",
+        "icmp_state": "Disabled",
+        "uses_arp_pings": "no"
+      },
+      "uid": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_1_1_80"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "servicedevice"
+        ]
+      }
+    }
+  },
+  "tplinksmarthome:hs105:5E10E3": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Goat Barn Heat Lamp",
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "tplinksmarthome",
+              "hs105",
+              "5E10E3",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "tplinksmarthome",
+              "switch"
+            ]
+          },
+          "label": "Switch",
+          "description": "Switch the Smart Home device on or off.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "tplinksmarthome",
+              "hs105",
+              "5E10E3",
+              "led"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "tplinksmarthome",
+              "led"
+            ]
+          },
+          "label": "Switch Led",
+          "description": "Switch the Smart Home device led on or off.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "tplinksmarthome",
+              "hs105",
+              "5E10E3",
+              "rssi"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "tplinksmarthome",
+              "rssi"
+            ]
+          },
+          "label": "Signal",
+          "description": "Wi-Fi signal strength indicator.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "ipAddress": "192.168.1.124",
+          "refresh": 30
+        }
+      },
+      "properties": {
+        "hardware version": "1.0",
+        "feature": "TIM",
+        "sofware version": "1.5.1 Build 171109 Rel.165500",
+        "firmware id": "00000000000000000000000000000000",
+        "hardware id": "E5D7E6089B060EF662783C23AE110522",
+        "device id": "80063EABEDD91091375F6B79A36D69A6195E10E3",
+        "model": "HS105(US)",
+        "device name": "Smart Wi-Fi Plug Mini",
+        "type": "IOT.SMARTPLUGSWITCH",
+        "mac": "B0:4E:26:18:78:2E",
+        "oem id": "003E098AF0D44D4BAB796B3F6A7A830E"
+      },
+      "uid": {
+        "segments": [
+          "tplinksmarthome",
+          "hs105",
+          "5E10E3"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "tplinksmarthome",
+          "hs105"
+        ]
+      }
+    }
+  },
+  "yahooweather:weather:98ac930e": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Weather Information",
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "yahooweather",
+              "weather",
+              "98ac930e",
+              "temperature"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "yahooweather",
+              "temperature"
+            ]
+          },
+          "label": "Temperature",
+          "description": "Current temperature in degrees celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "yahooweather",
+              "weather",
+              "98ac930e",
+              "humidity"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "yahooweather",
+              "humidity"
+            ]
+          },
+          "label": "Humidity",
+          "description": "Current humidity in %",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "yahooweather",
+              "weather",
+              "98ac930e",
+              "pressure"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "yahooweather",
+              "pressure"
+            ]
+          },
+          "label": "Pressure",
+          "description": "Current pressure in millibar",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "refresh": 300,
+          "location": 12771021
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "98ac930e"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "yahooweather",
+          "weather"
+        ]
+      },
+      "location": ""
+    }
+  },
+  "astro:sun:76dc9c2a": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Astro sun data",
+      "channels": [
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "rise#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "rise#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "rise#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "rise#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "set#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "set#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "set#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "set#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "noon#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "noon#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "noon#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "noon#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "night#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "night#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "night#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "night#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "morningNight#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "morningNight#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "morningNight#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "morningNight#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDawn#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDawn#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDawn#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDawn#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDawn#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDawn#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDawn#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDawn#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDawn#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDawn#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDawn#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDawn#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDusk#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDusk#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDusk#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "astroDusk#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDusk#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDusk#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDusk#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "nauticDusk#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDusk#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDusk#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDusk#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "civilDusk#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eveningNight#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eveningNight#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eveningNight#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eveningNight#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "daylight#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "daylight#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "daylight#duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "duration"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "daylight#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "rangeEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "position#azimuth"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "azimuth"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "position#elevation"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "elevation"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "radiation#direct"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "directRadiation"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "radiation#diffuse"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "diffuseRadiation"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "radiation#total"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "totalRadiation"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "zodiac#start"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "start"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "zodiac#end"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "end"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "zodiac#sign"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "sign"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "season#name"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "seasonName"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "season#spring"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "spring"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "season#summer"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "summer"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "season#autumn"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "autumn"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "season#winter"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "winter"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eclipse#total"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "total"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eclipse#partial"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "partial"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eclipse#ring"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "ring"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "kind": "TRIGGER",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "eclipse#event"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "sunEclipseEvent"
+            ]
+          },
+          "configuration": {
+            "properties": {
+              "offset": 0
+            }
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "astro",
+              "sun",
+              "76dc9c2a",
+              "phase#name"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "astro",
+              "sunPhaseName"
+            ]
+          },
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "interval": 300,
+          "geolocation": "33.424035,-82.24868700000002"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "astro",
+          "sun",
+          "76dc9c2a"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "astro",
+          "sun"
+        ]
+      }
+    }
+  },
+  "nest:structure:cc11b20b:P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Home",
+      "bridgeUID": {
+        "segments": [
+          "nest",
+          "account",
+          "cc11b20b"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "country_code"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "CountryCode"
+            ]
+          },
+          "label": "Country Code",
+          "description": "Country code of the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "postal_code"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PostalCode"
+            ]
+          },
+          "label": "Postal Code",
+          "description": "Postal code of the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "time_zone"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "TimeZone"
+            ]
+          },
+          "label": "Time Zone",
+          "description": "The time zone for the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "peak_period_start_time"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PeakPeriodStartTime"
+            ]
+          },
+          "label": "Peak Period Start Time",
+          "description": "Peak period start for the Rush Hour Rewards program",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "peak_period_end_time"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PeakPeriodEndTime"
+            ]
+          },
+          "label": "Peak Period End Time",
+          "description": "Peak period end for the Rush Hour Rewards program",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "rush_hour_rewards_enrollment"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "RushHourRewardsEnrollment"
+            ]
+          },
+          "label": "Rush Hour Rewards",
+          "description": "If rush hour rewards system is enabled or not",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "eta_begin"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "EtaBegin"
+            ]
+          },
+          "label": "ETA",
+          "description": "Estimated time of arrival at home, will setup the heat to turn on and be warm by the time you arrive",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "co_alarm_state"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "CoAlarmState"
+            ]
+          },
+          "label": "CO Alarm State",
+          "description": "Carbon monoxide alarm state",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "smoke_alarm_state"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "SmokeAlarmState"
+            ]
+          },
+          "label": "Smoke Alarm State",
+          "description": "Smoke alarm state",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "structure",
+              "cc11b20b",
+              "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA",
+              "away"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Away"
+            ]
+          },
+          "label": "Away",
+          "description": "Away state of the structure",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "structureId": "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA"
+        }
+      },
+      "properties": {
+        "vendor": "Nest"
+      },
+      "uid": {
+        "segments": [
+          "nest",
+          "structure",
+          "cc11b20b",
+          "P89Rur3OQMZWNs8x8oY6yo18gO4C7a9cFE60bBh47sIAv5R7RHjdyA"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "structure"
+        ]
+      }
+    }
+  },
+  "nest:account:60c89b7f": {
+    "class": "org.eclipse.smarthome.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Nest Account",
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "pincode": "",
+          "productSecret": "ue6HSmT456eVJJrN59bkk7uKw",
+          "productId": "cd10f3b8-f192-4c85-8918-389f198e7e96",
+          "accessToken": "c.8FyODTKRlzA7zhzmdkJAFnYHFufv9ozzP80RflQMqzZmBWvkR8XIIFSYlpqLzvl2FfMo3QvyaVsJ4rlGb8XlSMCHR5fKrLd9GUWvwyS4RDnklmFmHmtcz5GLotHqsGlIMX6LQzLm0v2dW02J"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "nest",
+          "account",
+          "60c89b7f"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "account"
+        ]
+      }
+    }
+  },
+  "network:pingdevice:192_168_1_120": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Fraggles mobile",
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "pingdevice",
+              "192_168_1_120",
+              "online"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "online"
+            ]
+          },
+          "label": "Online",
+          "description": "States whether a device is online or offline",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "pingdevice",
+              "192_168_1_120",
+              "latency"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "latency"
+            ]
+          },
+          "label": "Latency (ms)",
+          "description": "States the latency time in milliseconds",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "pingdevice",
+              "192_168_1_120",
+              "lastseen"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "lastseen"
+            ]
+          },
+          "label": "Last seen",
+          "description": "States the last seen date/time",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "hostname": "192.168.1.120",
+          "refresh_interval": 60000,
+          "retry": 1,
+          "timeout": 5000
+        }
+      },
+      "properties": {
+        "uses_dhcp_listen": "no",
+        "dhcp_state": "Running normally",
+        "presence_detection_type": "ICMP_PING",
+        "arp_state": "Disabled",
+        "uses_ios_wakeup": "On",
+        "icmp_state": "WINDOWS_PING",
+        "uses_arp_pings": "no"
+      },
+      "uid": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_120"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "pingdevice"
+        ]
+      }
+    }
+  },
+  "nest:camera:cc11b20b:qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Living Room Camera",
+      "bridgeUID": {
+        "segments": [
+          "nest",
+          "account",
+          "cc11b20b"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "audio_input_enabled"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "AudioInputEnabled"
+            ]
+          },
+          "label": "Audio Input Enabled",
+          "description": "If the audio input is enabled for this camera",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "video_history_enabled"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "VideoHistoryEnabled"
+            ]
+          },
+          "label": "Video History Enabled",
+          "description": "If the video history is enabled for this camera",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "streaming"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Streaming"
+            ]
+          },
+          "label": "Streaming",
+          "description": "If the camera is currently streaming",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "web_url"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "WebUrl"
+            ]
+          },
+          "label": "Web URL",
+          "description": "The web URL for the camera, allows you to see the camera in a web page",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "app_url"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "AppUrl"
+            ]
+          },
+          "label": "App URL",
+          "description": "The app URL for the camera, allows you to see the camera in an app",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "public_share_enabled"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PublicShareEnabled"
+            ]
+          },
+          "label": "Public Share Enabled",
+          "description": "If the public sharing of this camera is enabled",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "public_share_url"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PublicShareUrl"
+            ]
+          },
+          "label": "Public Share URL",
+          "description": "The publicly available URL for the camera",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "camera",
+              "cc11b20b",
+              "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA",
+              "snapshot_url"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "SnapshotUrl"
+            ]
+          },
+          "label": "Snapshot URL",
+          "description": "The URL showing a snapshot of the camera",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "deviceId": "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA"
+        }
+      },
+      "properties": {
+        "vendor": "Nest",
+        "firmwareVersion": "217-610040"
+      },
+      "uid": {
+        "segments": [
+          "nest",
+          "camera",
+          "cc11b20b",
+          "qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "camera"
+        ]
+      }
+    }
+  },
+  "nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Living Room Thermostat",
+      "bridgeUID": {
+        "segments": [
+          "nest",
+          "account",
+          "60c89b7f"
+        ]
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "temperature"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Temperature"
+            ]
+          },
+          "label": "Temperature",
+          "description": "Current temperature in degrees Celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "humidity"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Humidity"
+            ]
+          },
+          "label": "Humidity",
+          "description": "Indicates the current relative humidity",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "mode"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Mode"
+            ]
+          },
+          "label": "Mode",
+          "description": "Current mode of the Nest thermostat",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "previous_mode"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "PreviousMode"
+            ]
+          },
+          "label": "Previous Mode",
+          "description": "The previous mode of the Nest thermostat",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "state"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "State"
+            ]
+          },
+          "label": "State",
+          "description": "The active state of the Nest thermostat",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "set_point"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "SetPoint"
+            ]
+          },
+          "label": "Set Point",
+          "description": "The set point in degrees Celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "max_set_point"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "MaxSetPoint"
+            ]
+          },
+          "label": "Max Set Point",
+          "description": "The max set point in degrees Celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "min_set_point"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "MinSetPoint"
+            ]
+          },
+          "label": "Min Set Point",
+          "description": "The min set point in degrees Celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "can_heat"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "CanHeat"
+            ]
+          },
+          "label": "Can Heat",
+          "description": "If the thermostat can actually turn on heating",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "can_cool"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "CanCool"
+            ]
+          },
+          "label": "Can Cool",
+          "description": "If the thermostat can actually turn on cooling",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "fan_timer_active"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "FanTimerActive"
+            ]
+          },
+          "label": "Fan Timer Active",
+          "description": "If the fan timer is engaged",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "fan_timer_duration"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "FanTimerDuration"
+            ]
+          },
+          "label": "Fan Timer Duration",
+          "description": "Length of time (in minutes) that the fan is set to run",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "fan_timer_timeout"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "FanTimerTimeout"
+            ]
+          },
+          "label": "Fan Timer Timeout",
+          "description": "Timestamp when the fan stops running",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "has_fan"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "HasFan"
+            ]
+          },
+          "label": "Has Fan",
+          "description": "If the thermostat can control the fan",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "has_leaf"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "HasLeaf"
+            ]
+          },
+          "label": "Has Leaf",
+          "description": "If the thermostat is currently in a leaf mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "sunlight_correction_enabled"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "SunlightCorrectionEnabled"
+            ]
+          },
+          "label": "Sunlight Correction Enabled",
+          "description": "If sunlight correction is enabled",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "sunlight_correction_active"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "SunlightCorrectionActive"
+            ]
+          },
+          "label": "Sunlight Correction Active",
+          "description": "If sunlight correction is active",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "using_emergency_heat"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "UsingEmergencyHeat"
+            ]
+          },
+          "label": "Using Emergency Heat",
+          "description": "If the system is currently using emergency heat",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "locked"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "Locked"
+            ]
+          },
+          "label": "Locked",
+          "description": "If the thermostat has the temperature locked to only be within a set range",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "locked_max_set_point"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "LockedMaxSetPoint"
+            ]
+          },
+          "label": "Locked Max Set Point",
+          "description": "The locked range max set point in degrees Celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "locked_min_set_point"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "LockedMinSetPoint"
+            ]
+          },
+          "label": "Locked Min Set Point",
+          "description": "The locked range min set point in degrees Celsius",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "nest",
+              "thermostat",
+              "60c89b7f",
+              "tb4rid59zOayu2dxyO8AunxIzE-AtqZC",
+              "time_to_target_mins"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "nest",
+              "TimeToTarget"
+            ]
+          },
+          "label": "Time To Target",
+          "description": "Time left to the target temperature (mins) approximately",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "deviceId": "tb4rid59zOayu2dxyO8AunxIzE-AtqZC"
+        }
+      },
+      "properties": {
+        "vendor": "Nest",
+        "firmwareVersion": "5.8.2-1"
+      },
+      "uid": {
+        "segments": [
+          "nest",
+          "thermostat",
+          "60c89b7f",
+          "tb4rid59zOayu2dxyO8AunxIzE-AtqZC"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "nest",
+          "thermostat"
+        ]
+      }
+    }
+  },
+  "tplinksmarthome:hs200:12E98B": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Goat Barn Lights",
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "tplinksmarthome",
+              "hs200",
+              "12E98B",
+              "switch"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "tplinksmarthome",
+              "switch"
+            ]
+          },
+          "label": "Switch",
+          "description": "Switch the Smart Home device on or off.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "tplinksmarthome",
+              "hs200",
+              "12E98B",
+              "rssi"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "tplinksmarthome",
+              "rssi"
+            ]
+          },
+          "label": "Signal",
+          "description": "Wi-Fi signal strength indicator.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "ipAddress": "192.168.1.125",
+          "refresh": 1
+        }
+      },
+      "properties": {
+        "hardware version": "2.0",
+        "feature": "TIM",
+        "sofware version": "1.5.2 Build 171208 Rel.114610",
+        "firmware id": "00000000000000000000000000000000",
+        "hardware id": "12657950800085A27A64E9E775C8A7A7",
+        "device id": "80063D753D6E48D78CB15920C0B294D11A12E98B",
+        "model": "HS200(US)",
+        "device name": "Smart Wi-Fi Light Switch",
+        "mac": "AC:84:C6:5E:2E:34",
+        "oem id": "4748FB6E209D782A854A4B5AEDC89284"
+      },
+      "uid": {
+        "segments": [
+          "tplinksmarthome",
+          "hs200",
+          "12E98B"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "tplinksmarthome",
+          "hs200"
+        ]
+      }
+    }
+  }
+}

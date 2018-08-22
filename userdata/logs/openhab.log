@@ -1,0 +1,1310 @@
+2018-07-02 15:31:59.258 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.302 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.302 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.302 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.302 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Barn_Lights'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Barn_Lights' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Bed_Light'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Bed_Light' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Flood_Lights'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Flood_Lights' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.306 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.310 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.310 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:31:59.310 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:09.787 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'default.items' has errors, therefore ignoring it: [13,37]: mismatched input ':' expecting '='
+
+2018-07-02 15:32:09.787 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'default.items' has errors, therefore ignoring it: [13,37]: mismatched input ':' expecting '='
+
+2018-07-02 15:32:12.571 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Chads_Mobile'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Chads_Mobile' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Chads_Mobile' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Chads_Mobile' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Chads_Mobile' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Chads_Mobile' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'DeviceprovidingaWebserver'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'DeviceprovidingaWebserver' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'DeviceprovidingaWebserver' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'DeviceprovidingaWebserver' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'DeviceprovidingaWebserver' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'DeviceprovidingaWebserver' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Temperature_Outside' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Temperature_Outside' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Temperature_Outside' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Home_Temp' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Home_Temp' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.571 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Home_Temp' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Mode' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Mode' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Mode' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Away' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Away' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Away' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Humidity' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Humidity' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Humidity' for widget org.eclipse.smarthome.model.sitemap.Text
+2018-07-02 15:32:12.575 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Web_Camera'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Web_Camera' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Web_Camera' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Web_Camera' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Web_Camera' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Web_Camera' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:12.575 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:12.579 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Goat_Heat_Lamp'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Goat_Heat_Lamp' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Goat_Heat_Lamp' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Barn_Lights'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Barn_Lights' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Barn_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Bed_Light'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Bed_Light' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.579 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.583 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Bed_Light' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.583 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Flood_Lights'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Flood_Lights' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [214:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-07-02 15:32:12.583 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.583 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.583 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.583 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:12.583 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Flood_Lights' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-07-02 15:32:28.310 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2018-07-02 15:32:28.325 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'default.items'
+2018-07-02 15:32:32.816 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-07-02 15:32:32.816 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'default.sitemap'
+2018-07-02 15:32:32.840 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-07-02 15:32:32.840 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'default.sitemap'
+2018-07-02 15:32:32.868 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:32.868 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:32.868 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:32.868 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:32.868 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:32.868 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'NestTStat_hvac_mode' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2018-07-02 15:32:35.593 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-07-02 15:32:35.593 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'default.sitemap'
+2018-07-02 15:32:35.609 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-07-02 15:32:35.609 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'default.sitemap'
+2018-07-04 15:09:07.747 [ERROR] [io.openhabcloud.internal.CloudClient] - Socket.IO error: {}
+io.socket.engineio.client.EngineIOException: websocket error
+	at io.socket.engineio.client.Transport.onError(Transport.java:71) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.engineio.client.transports.WebSocket.access$500(WebSocket.java:28) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.engineio.client.transports.WebSocket$2$5.run(WebSocket.java:150) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.thread.EventThread$2.run(EventThread.java:80) [240:org.openhab.io.openhabcloud:2.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:?]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:?]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940) ~[?:?]
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[?:?]
+	at okio.Okio$2.read(Okio.java:138) ~[?:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:238) ~[?:?]
+	at okio.RealBufferedSource.request(RealBufferedSource.java:66) ~[?:?]
+	at okio.RealBufferedSource.require(RealBufferedSource.java:59) ~[?:?]
+	at okio.RealBufferedSource.readByte(RealBufferedSource.java:72) ~[?:?]
+	at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.java:115) ~[?:?]
+	at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.java:104) ~[?:?]
+	at okhttp3.internal.ws.RealWebSocket.readMessage(RealWebSocket.java:97) ~[?:?]
+	at okhttp3.ws.WebSocketCall.createWebSocket(WebSocketCall.java:152) ~[?:?]
+	at okhttp3.ws.WebSocketCall.access$000(WebSocketCall.java:41) ~[?:?]
+	at okhttp3.ws.WebSocketCall$1.onResponse(WebSocketCall.java:97) ~[?:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:126) ~[?:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[?:?]
+	... 3 more
+2018-07-04 15:09:07.759 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-04 15:09:09.482 [WARN ] [al.connection.YahooWeatherConnection] - Communication error occurred while getting Yahoo weather information: java.util.concurrent.ExecutionException: java.net.UnknownHostException: query.yahooapis.com
+2018-07-04 15:09:21.865 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.146
+2018-07-04 15:09:32.045 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-04 15:09:58.586 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-07-04 15:55:38.147 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for registered address: 192.168.1.120
+2018-07-04 15:58:48.522 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.128
+2018-07-06 17:23:41.807 [ERROR] [io.openhabcloud.internal.CloudClient] - Socket.IO error: {}
+io.socket.engineio.client.EngineIOException: websocket error
+	at io.socket.engineio.client.Transport.onError(Transport.java:71) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.engineio.client.transports.WebSocket.access$500(WebSocket.java:28) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.engineio.client.transports.WebSocket$2$5.run(WebSocket.java:150) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.thread.EventThread$2.run(EventThread.java:80) [240:org.openhab.io.openhabcloud:2.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:?]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:?]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940) ~[?:?]
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[?:?]
+	at okio.Okio$2.read(Okio.java:138) ~[?:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:238) ~[?:?]
+	at okio.RealBufferedSource.request(RealBufferedSource.java:66) ~[?:?]
+	at okio.RealBufferedSource.require(RealBufferedSource.java:59) ~[?:?]
+	at okio.RealBufferedSource.readByte(RealBufferedSource.java:72) ~[?:?]
+	at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.java:115) ~[?:?]
+	at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.java:104) ~[?:?]
+	at okhttp3.internal.ws.RealWebSocket.readMessage(RealWebSocket.java:97) ~[?:?]
+	at okhttp3.ws.WebSocketCall.createWebSocket(WebSocketCall.java:152) ~[?:?]
+	at okhttp3.ws.WebSocketCall.access$000(WebSocketCall.java:41) ~[?:?]
+	at okhttp3.ws.WebSocketCall$1.onResponse(WebSocketCall.java:97) ~[?:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:126) ~[?:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[?:?]
+	... 3 more
+2018-07-06 17:23:41.827 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-06 17:23:42.122 [WARN ] [al.connection.YahooWeatherConnection] - Communication error occurred while getting Yahoo weather information: java.util.concurrent.ExecutionException: java.net.UnknownHostException: query.yahooapis.com
+2018-07-06 17:23:44.707 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.146
+2018-07-06 17:23:55.119 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-06 17:24:40.395 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2018-07-06 17:25:02.942 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:cc11b20b' takes more than 5000ms.
+2018-07-06 17:25:12.972 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:60c89b7f' takes more than 5000ms.
+2018-07-06 17:25:14.551 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2018-07-06 17:25:14.769 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-06 17:25:14.801 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2018-07-06 17:25:14.801 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2018-07-06 17:25:14.988 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2018-07-06 17:25:14.988 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2018-07-06 17:25:15.004 [INFO ] [er.internal.HomeBuilderDashboardTile] - Stopped Home Builder
+2018-07-06 17:25:15.004 [INFO ] [.dashboard.internal.DashboardService] - Stopped dashboard
+2018-07-06 17:25:45.096 [WARN ] [.core.internal.i18n.I18nProviderImpl] - Could not set new location, keeping old one: 
+2018-07-06 17:25:45.346 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to en_US, Location set to null, Time zone set to US/Eastern
+2018-07-06 17:25:45.565 [INFO ] [er.internal.HomeBuilderDashboardTile] - Started Home Builder at /homebuilder
+2018-07-06 17:25:46.628 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at http://192.168.1.146:8080
+2018-07-06 17:25:46.737 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at https://192.168.1.146:8443
+2018-07-06 17:25:47.893 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-06 17:25:51.206 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2018-07-06 17:25:51.518 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'influxdb.persist'
+2018-07-06 17:25:54.393 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'AwayRules.rules'
+2018-07-06 17:25:54.549 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-07-06 17:25:54.956 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2018-07-06 17:25:55.174 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-07-06 17:25:55.174 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2018-07-06 17:25:55.690 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-07-06 17:25:55.721 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-07-06 17:25:55.862 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2018-07-06 17:25:55.862 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2018-07-06 17:25:56.955 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2018-07-06 17:25:57.034 [INFO ] [assic.internal.servlet.WebAppServlet] - Started Classic UI at /classicui/app
+2018-07-06 17:25:57.065 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2018-07-06 17:25:57.190 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2018-07-06 17:25:57.221 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2018-07-06 17:25:57.643 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-07-06 17:25:57.643 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-07-06 17:25:58.034 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'samsungtv:tv:55c6e633_ad06_72ca_eb03_41d703349bdf' to inbox.
+2018-07-06 17:25:58.659 [ERROR] [.internal.InfluxDBPersistenceService] - database connection failed
+retrofit.RetrofitError: Connection refused: connect
+	at retrofit.RetrofitError.networkError(RetrofitError.java:27) ~[241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:395) [241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invoke(RestAdapter.java:240) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.$Proxy149.ping(Unknown Source) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.InfluxDBImpl.ping(InfluxDBImpl.java:114) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.checkConnection(InfluxDBPersistenceService.java:172) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.activate(InfluxDBPersistenceService.java:145) [241:org.openhab.persistence.influxdb:1.11.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:?]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invokeMethod(BaseMethod.java:229) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.access$500(BaseMethod.java:39) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod$Resolved.invoke(BaseMethod.java:650) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invoke(BaseMethod.java:506) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:307) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:299) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:298) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:109) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:906) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:879) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:823) [42:org.apache.felix.scr:2.0.12]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619) [?:?]
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:72) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BindMethod.getServiceObject(BindMethod.java:651) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2201) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod(DependencyManager.java:1714) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod(DependencyManager.java:1699) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod(SingleComponentManager.java:372) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:320) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:291) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1215) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1136) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:945) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:881) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1167) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:127) [42:org.apache.felix.scr:2.0.12]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:915) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:225) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:464) [?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:887) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:874) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:132) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:941) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:741) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:675) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:430) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:657) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:341) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:390) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:54) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:265) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.createExtension(AbstractExtender.java:254) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.modifiedBundle(AbstractExtender.java:227) [42:org.apache.felix.scr:2.0.12]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:482) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:415) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:444) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:903) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:156) [?:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [?:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:467) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340) [?:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:?]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:?]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:589) ~[?:?]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:100) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectCleartext(SocketConnector.java:67) ~[?:?]
+	at com.squareup.okhttp.Connection.connect(Connection.java:152) ~[?:?]
+	at com.squareup.okhttp.Connection.connectAndSetOwner(Connection.java:185) ~[?:?]
+	at com.squareup.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:341) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:330) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:248) ~[?:?]
+	at com.squareup.okhttp.Call.getResponse(Call.java:273) ~[?:?]
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:230) ~[?:?]
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:201) ~[?:?]
+	at com.squareup.okhttp.Call.execute(Call.java:81) ~[?:?]
+	at retrofit.client.OkClient.execute(OkClient.java:53) ~[?:?]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:326) ~[?:?]
+	... 85 more
+2018-07-06 17:25:58.690 [ERROR] [.internal.InfluxDBPersistenceService] - database connection error Connection refused: connect
+2018-07-06 17:25:58.690 [ERROR] [.internal.InfluxDBPersistenceService] - database connection does not work for now, will retry to use the database.
+2018-07-06 17:45:33.268 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 20093269 failed: null
+2018-07-06 17:45:43.403 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 20093277 failed: null
+2018-07-06 17:46:06.075 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 20093330 failed: null
+2018-07-06 17:46:08.997 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 20093337 failed: null
+2018-07-06 18:28:03.381 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 0.0.0.0
+2018-07-06 19:11:22.304 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.143
+2018-07-06 20:47:09.646 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for registered address: 192.168.1.120
+2018-07-06 20:48:21.418 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.117
+2018-07-06 20:52:55.382 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2018-07-06 20:53:10.648 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:60c89b7f' takes more than 5000ms.
+2018-07-06 20:53:18.667 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:cc11b20b' takes more than 5000ms.
+2018-07-06 20:53:18.796 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2018-07-06 20:53:18.874 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-06 20:53:18.905 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2018-07-06 20:53:18.921 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2018-07-06 20:53:19.030 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2018-07-06 20:53:19.030 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2018-07-06 20:53:19.030 [INFO ] [er.internal.HomeBuilderDashboardTile] - Stopped Home Builder
+2018-07-06 20:53:19.046 [INFO ] [.dashboard.internal.DashboardService] - Stopped dashboard
+2018-07-13 16:23:40.601 [WARN ] [.core.internal.i18n.I18nProviderImpl] - Could not set new location, keeping old one: 
+2018-07-13 16:23:40.621 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to en_US, Location set to null, Time zone set to US/Eastern
+2018-07-13 16:23:41.399 [INFO ] [er.internal.HomeBuilderDashboardTile] - Started Home Builder at /homebuilder
+2018-07-13 16:23:42.617 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at http://192.168.1.146:8080
+2018-07-13 16:23:42.695 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at https://192.168.1.146:8443
+2018-07-13 16:23:45.077 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-13 16:23:51.312 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2018-07-13 16:23:51.782 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'influxdb.persist'
+2018-07-13 16:23:55.432 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'AwayRules.rules'
+2018-07-13 16:23:55.588 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-07-13 16:23:55.744 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2018-07-13 16:23:55.980 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-07-13 16:23:55.980 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2018-07-13 16:23:56.825 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-07-13 16:23:56.845 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-07-13 16:23:57.045 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2018-07-13 16:23:57.045 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2018-07-13 16:23:58.269 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2018-07-13 16:23:58.428 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-07-13 16:23:58.444 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-07-13 16:23:58.444 [INFO ] [assic.internal.servlet.WebAppServlet] - Started Classic UI at /classicui/app
+2018-07-13 16:23:58.459 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2018-07-13 16:23:58.741 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'samsungtv:tv:55c6e633_ad06_72ca_eb03_41d703349bdf' to inbox.
+2018-07-13 16:23:58.756 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2018-07-13 16:23:58.803 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2018-07-13 16:24:00.295 [ERROR] [.internal.InfluxDBPersistenceService] - database connection failed
+retrofit.RetrofitError: Connection refused: connect
+	at retrofit.RetrofitError.networkError(RetrofitError.java:27) ~[241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:395) [241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invoke(RestAdapter.java:240) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.$Proxy149.ping(Unknown Source) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.InfluxDBImpl.ping(InfluxDBImpl.java:114) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.checkConnection(InfluxDBPersistenceService.java:172) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.activate(InfluxDBPersistenceService.java:145) [241:org.openhab.persistence.influxdb:1.11.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:?]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invokeMethod(BaseMethod.java:229) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.access$500(BaseMethod.java:39) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod$Resolved.invoke(BaseMethod.java:650) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invoke(BaseMethod.java:506) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:307) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:299) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:298) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:109) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:906) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:879) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:823) [42:org.apache.felix.scr:2.0.12]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619) [?:?]
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:72) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BindMethod.getServiceObject(BindMethod.java:651) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2201) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod(DependencyManager.java:1714) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod(DependencyManager.java:1699) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod(SingleComponentManager.java:372) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:320) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:291) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1215) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1136) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:945) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:881) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1167) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:127) [42:org.apache.felix.scr:2.0.12]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:915) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:225) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:464) [?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:887) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:874) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:132) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:941) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:741) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:675) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:430) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:657) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:341) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:390) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:54) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:265) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.createExtension(AbstractExtender.java:254) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.modifiedBundle(AbstractExtender.java:227) [42:org.apache.felix.scr:2.0.12]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:482) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:415) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:444) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:903) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:156) [?:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [?:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:467) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340) [?:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:?]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:?]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:589) ~[?:?]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:100) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectCleartext(SocketConnector.java:67) ~[?:?]
+	at com.squareup.okhttp.Connection.connect(Connection.java:152) ~[?:?]
+	at com.squareup.okhttp.Connection.connectAndSetOwner(Connection.java:185) ~[?:?]
+	at com.squareup.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:341) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:330) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:248) ~[?:?]
+	at com.squareup.okhttp.Call.getResponse(Call.java:273) ~[?:?]
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:230) ~[?:?]
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:201) ~[?:?]
+	at com.squareup.okhttp.Call.execute(Call.java:81) ~[?:?]
+	at retrofit.client.OkClient.execute(OkClient.java:53) ~[?:?]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:326) ~[?:?]
+	... 85 more
+2018-07-13 16:24:00.327 [ERROR] [.internal.InfluxDBPersistenceService] - database connection error Connection refused: connect
+2018-07-13 16:24:00.327 [ERROR] [.internal.InfluxDBPersistenceService] - database connection does not work for now, will retry to use the database.
+2018-07-13 16:24:07.589 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'AwayRules.rules'
+2018-07-13 16:24:07.698 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'AwayRules.rules'
+2018-07-13 17:09:33.476 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for registered address: 192.168.1.120
+2018-07-13 17:14:34.431 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.143
+2018-07-13 17:21:59.418 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 577524 failed: null
+2018-07-13 17:22:14.695 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 577532 failed: null
+2018-07-13 18:43:34.012 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.143
+2018-07-13 19:20:07.526 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.106
+2018-07-15 12:01:25.749 [WARN ] [al.connection.YahooWeatherConnection] - Communication error occurred while getting Yahoo weather information: java.util.concurrent.ExecutionException: java.net.UnknownHostException: query.yahooapis.com
+2018-07-15 12:01:25.593 [ERROR] [io.openhabcloud.internal.CloudClient] - Socket.IO error: {}
+io.socket.engineio.client.EngineIOException: websocket error
+	at io.socket.engineio.client.Transport.onError(Transport.java:71) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.engineio.client.transports.WebSocket.access$500(WebSocket.java:28) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.engineio.client.transports.WebSocket$2$5.run(WebSocket.java:150) [240:org.openhab.io.openhabcloud:2.2.0]
+	at io.socket.thread.EventThread$2.run(EventThread.java:80) [240:org.openhab.io.openhabcloud:2.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:?]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:?]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940) ~[?:?]
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[?:?]
+	at okio.Okio$2.read(Okio.java:138) ~[?:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:238) ~[?:?]
+	at okio.RealBufferedSource.request(RealBufferedSource.java:66) ~[?:?]
+	at okio.RealBufferedSource.require(RealBufferedSource.java:59) ~[?:?]
+	at okio.RealBufferedSource.readByte(RealBufferedSource.java:72) ~[?:?]
+	at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.java:115) ~[?:?]
+	at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.java:104) ~[?:?]
+	at okhttp3.internal.ws.RealWebSocket.readMessage(RealWebSocket.java:97) ~[?:?]
+	at okhttp3.ws.WebSocketCall.createWebSocket(WebSocketCall.java:152) ~[?:?]
+	at okhttp3.ws.WebSocketCall.access$000(WebSocketCall.java:41) ~[?:?]
+	at okhttp3.ws.WebSocketCall$1.onResponse(WebSocketCall.java:97) ~[?:?]
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:126) ~[?:?]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[?:?]
+	... 3 more
+2018-07-15 12:01:27.323 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-07-15 12:01:38.466 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.146
+2018-08-19 14:14:21.176 [WARN ] [.core.internal.i18n.I18nProviderImpl] - Could not set new location, keeping old one: 
+2018-08-19 14:14:21.216 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to en_US, Location set to null, Time zone set to US/Eastern
+2018-08-19 14:14:22.239 [INFO ] [er.internal.HomeBuilderDashboardTile] - Started Home Builder at /homebuilder
+2018-08-19 14:14:23.319 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at http://192.168.1.146:8080
+2018-08-19 14:14:23.403 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at https://192.168.1.146:8443
+2018-08-19 14:14:26.285 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-08-19 14:14:29.334 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2018-08-19 14:14:29.990 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'influxdb.persist'
+2018-08-19 14:14:32.131 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'AwayRules.rules'
+2018-08-19 14:14:32.267 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-08-19 14:14:32.587 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2018-08-19 14:14:32.775 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-08-19 14:14:32.779 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2018-08-19 14:14:33.767 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-08-19 14:14:33.779 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-08-19 14:14:34.115 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2018-08-19 14:14:34.119 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2018-08-19 14:14:35.199 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-08-19 14:14:35.199 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-08-19 14:14:36.057 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2018-08-19 14:14:36.177 [INFO ] [assic.internal.servlet.WebAppServlet] - Started Classic UI at /classicui/app
+2018-08-19 14:14:36.209 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2018-08-19 14:14:36.557 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2018-08-19 14:14:36.557 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'samsungtv:tv:55c6e633_ad06_72ca_eb03_41d703349bdf' to inbox.
+2018-08-19 14:14:36.589 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2018-08-19 14:14:38.376 [ERROR] [.internal.InfluxDBPersistenceService] - database connection failed
+retrofit.RetrofitError: Connection refused: connect
+	at retrofit.RetrofitError.networkError(RetrofitError.java:27) ~[241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:395) [241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invoke(RestAdapter.java:240) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.$Proxy152.ping(Unknown Source) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.InfluxDBImpl.ping(InfluxDBImpl.java:114) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.checkConnection(InfluxDBPersistenceService.java:172) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.activate(InfluxDBPersistenceService.java:145) [241:org.openhab.persistence.influxdb:1.11.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:?]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invokeMethod(BaseMethod.java:229) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.access$500(BaseMethod.java:39) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod$Resolved.invoke(BaseMethod.java:650) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invoke(BaseMethod.java:506) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:307) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:299) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:298) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:109) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:906) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:879) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:823) [42:org.apache.felix.scr:2.0.12]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619) [?:?]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39) [15:com.eclipsesource.jaxrs.publisher:5.3.1.201602281253]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941) [?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) [?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:915) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:225) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:464) [?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:887) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:874) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:132) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:941) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:741) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:675) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:430) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:657) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:341) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:390) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:54) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:265) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.createExtension(AbstractExtender.java:254) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.modifiedBundle(AbstractExtender.java:227) [42:org.apache.felix.scr:2.0.12]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:482) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:415) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:444) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:903) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:156) [?:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [?:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:467) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340) [?:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:?]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:?]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:589) ~[?:?]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:100) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectCleartext(SocketConnector.java:67) ~[?:?]
+	at com.squareup.okhttp.Connection.connect(Connection.java:152) ~[?:?]
+	at com.squareup.okhttp.Connection.connectAndSetOwner(Connection.java:185) ~[?:?]
+	at com.squareup.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:341) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:330) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:248) ~[?:?]
+	at com.squareup.okhttp.Call.getResponse(Call.java:273) ~[?:?]
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:230) ~[?:?]
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:201) ~[?:?]
+	at com.squareup.okhttp.Call.execute(Call.java:81) ~[?:?]
+	at retrofit.client.OkClient.execute(OkClient.java:53) ~[?:?]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:326) ~[?:?]
+	... 77 more
+2018-08-19 14:14:38.406 [ERROR] [.internal.InfluxDBPersistenceService] - database connection error Connection refused: connect
+2018-08-19 14:14:38.406 [ERROR] [.internal.InfluxDBPersistenceService] - database connection does not work for now, will retry to use the database.
+2018-08-19 14:15:27.693 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2018-08-19 14:15:41.797 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:cc11b20b' takes more than 5000ms.
+2018-08-19 14:15:46.820 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:60c89b7f' takes more than 5000ms.
+2018-08-19 14:15:46.884 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2018-08-19 14:15:46.892 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-08-19 14:15:46.924 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2018-08-19 14:15:46.936 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2018-08-19 14:15:47.264 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2018-08-19 14:15:47.268 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2018-08-19 14:15:47.272 [INFO ] [er.internal.HomeBuilderDashboardTile] - Stopped Home Builder
+2018-08-19 14:15:47.276 [INFO ] [.dashboard.internal.DashboardService] - Stopped dashboard
+2018-08-22 08:40:07.422 [WARN ] [.core.internal.i18n.I18nProviderImpl] - Could not set new location, keeping old one: 
+2018-08-22 08:40:07.469 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to en_US, Location set to null, Time zone set to US/Eastern
+2018-08-22 08:40:10.699 [INFO ] [er.internal.HomeBuilderDashboardTile] - Started Home Builder at /homebuilder
+2018-08-22 08:40:10.885 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at http://192.168.1.146:8080
+2018-08-22 08:40:10.971 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at https://192.168.1.146:8443
+2018-08-22 08:40:14.439 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-08-22 08:40:18.658 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.items'
+2018-08-22 08:40:19.714 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'influxdb.persist'
+2018-08-22 08:40:28.682 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'AwayRules.rules'
+2018-08-22 08:40:28.775 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-08-22 08:40:28.900 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2018-08-22 08:40:29.190 [INFO ] [el.core.internal.ModelRepositoryImpl] - Validation issues found in configuration model 'default.sitemap', using it anyway:
+Sitemap should contain either only frames or none at all
+2018-08-22 08:40:29.190 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'default.sitemap'
+2018-08-22 08:40:29.967 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-08-22 08:40:29.970 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-08-22 08:40:30.142 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2018-08-22 08:40:30.142 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2018-08-22 08:40:31.469 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2018-08-22 08:40:31.575 [INFO ] [thome.binding.astro.internal.job.Job] - Scheduled Astro event-jobs for thing astro:sun:76dc9c2a
+2018-08-22 08:40:31.575 [INFO ] [ding.astro.handler.AstroThingHandler] - Scheduled Positional job astro:sun:76dc9c2a every 300 seconds
+2018-08-22 08:40:31.794 [INFO ] [assic.internal.servlet.WebAppServlet] - Started Classic UI at /classicui/app
+2018-08-22 08:40:31.815 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2018-08-22 08:40:32.156 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2018-08-22 08:40:32.212 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2018-08-22 08:40:34.334 [ERROR] [.internal.InfluxDBPersistenceService] - database connection failed
+retrofit.RetrofitError: Connection refused: connect
+	at retrofit.RetrofitError.networkError(RetrofitError.java:27) ~[241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:395) [241:org.openhab.persistence.influxdb:1.11.0]
+	at retrofit.RestAdapter$RestHandler.invoke(RestAdapter.java:240) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.$Proxy152.ping(Unknown Source) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.influxdb.impl.InfluxDBImpl.ping(InfluxDBImpl.java:114) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.checkConnection(InfluxDBPersistenceService.java:172) [241:org.openhab.persistence.influxdb:1.11.0]
+	at org.openhab.persistence.influxdb.internal.InfluxDBPersistenceService.activate(InfluxDBPersistenceService.java:145) [241:org.openhab.persistence.influxdb:1.11.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:?]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invokeMethod(BaseMethod.java:229) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.access$500(BaseMethod.java:39) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod$Resolved.invoke(BaseMethod.java:650) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.BaseMethod.invoke(BaseMethod.java:506) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:307) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.inject.ActivateMethod.invoke(ActivateMethod.java:299) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject(SingleComponentManager.java:298) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent(SingleComponentManager.java:109) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:906) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:879) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:823) [42:org.apache.felix.scr:2.0.12]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:496) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619) [?:?]
+	at com.eclipsesource.jaxrs.publisher.internal.ResourceTracker.addingService(ResourceTracker.java:39) [15:com.eclipsesource.jaxrs.publisher:5.3.1.201602281253]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:941) [?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:870) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) [?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:901) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:915) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:127) [?:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:225) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:464) [?:?]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:887) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:874) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:132) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:941) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:741) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:675) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:430) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:657) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:341) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:390) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:54) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:265) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.createExtension(AbstractExtender.java:254) [42:org.apache.felix.scr:2.0.12]
+	at org.apache.felix.utils.extender.AbstractExtender.modifiedBundle(AbstractExtender.java:227) [42:org.apache.felix.scr:2.0.12]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:482) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:415) [?:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232) [?:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:444) [?:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:903) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112) [?:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:156) [?:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [?:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:467) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1620) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1600) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1571) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1514) [?:?]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [?:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340) [?:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:?]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:?]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:589) ~[?:?]
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:100) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160) ~[?:?]
+	at com.squareup.okhttp.internal.http.SocketConnector.connectCleartext(SocketConnector.java:67) ~[?:?]
+	at com.squareup.okhttp.Connection.connect(Connection.java:152) ~[?:?]
+	at com.squareup.okhttp.Connection.connectAndSetOwner(Connection.java:185) ~[?:?]
+	at com.squareup.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:341) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:330) ~[?:?]
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:248) ~[?:?]
+	at com.squareup.okhttp.Call.getResponse(Call.java:273) ~[?:?]
+	at com.squareup.okhttp.Call$ApplicationInterceptorChain.proceed(Call.java:230) ~[?:?]
+	at com.squareup.okhttp.Call.getResponseWithInterceptorChain(Call.java:201) ~[?:?]
+	at com.squareup.okhttp.Call.execute(Call.java:81) ~[?:?]
+	at retrofit.client.OkClient.execute(OkClient.java:53) ~[?:?]
+	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:326) ~[?:?]
+	... 77 more
+2018-08-22 08:40:34.355 [ERROR] [.internal.InfluxDBPersistenceService] - database connection error Connection refused: connect
+2018-08-22 08:40:34.355 [ERROR] [.internal.InfluxDBPersistenceService] - database connection does not work for now, will retry to use the database.
+2018-08-22 08:41:27.251 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.124
+2018-08-22 08:43:00.638 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 08:43:00.732 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:00:25.908 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,39]: missing EOF at ':'
+
+2018-08-22 09:00:25.917 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,39]: missing EOF at ':'
+
+2018-08-22 09:01:17.748 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,17]: mismatched input '0' expecting RULE_STRING
+
+2018-08-22 09:01:17.763 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,17]: mismatched input '0' expecting RULE_STRING
+
+2018-08-22 09:01:48.793 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,17]: mismatched input '0' expecting RULE_STRING
+
+2018-08-22 09:01:48.808 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,17]: mismatched input '0' expecting RULE_STRING
+
+2018-08-22 09:02:13.359 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,17]: mismatched input '0' expecting RULE_STRING
+
+2018-08-22 09:02:13.368 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,17]: mismatched input '0' expecting RULE_STRING
+
+2018-08-22 09:03:47.217 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:03:47.227 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:04:06.031 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:04:06.038 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:04:21.803 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'cron'
+
+2018-08-22 09:04:21.814 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'cron'
+
+2018-08-22 09:04:35.016 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:04:35.023 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:04:46.805 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,8]: no viable alternative at input '0'
+
+2018-08-22 09:04:46.812 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,8]: no viable alternative at input '0'
+
+2018-08-22 09:05:49.687 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:05:49.687 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:05:57.837 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:05:57.837 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:13:00.202 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-08-22 09:13:00.282 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:13:00.479 [ERROR] [ntime.internal.engine.ExecuteRuleJob] - Error during the execution of rule 'Goat_Heat_Lamp_On': Script interpreter couldn't be obtain
+2018-08-22 09:13:28.013 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'cron'
+
+2018-08-22 09:13:28.013 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'cron'
+
+2018-08-22 09:13:40.881 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:13:40.881 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:13:54.647 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:13:54.663 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Time'
+
+2018-08-22 09:14:01.180 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-08-22 09:14:01.222 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:14:10.549 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input '"0 0/1 * 1/1 * ? *"'
+
+2018-08-22 09:14:10.549 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input '"0 0/1 * 1/1 * ? *"'
+
+2018-08-22 09:14:24.600 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:14:24.600 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:14:49.393 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:14:49.393 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:15:19.494 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:15:19.494 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'Cron'
+
+2018-08-22 09:17:38.469 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-08-22 09:17:38.547 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:19:36.075 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:19:36.111 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:22:42.860 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'THis'
+
+2018-08-22 09:22:42.865 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'GoatBarnRules.rules' has errors, therefore ignoring it: [8,7]: no viable alternative at input 'THis'
+
+2018-08-22 09:23:02.846 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'GoatBarnRules.rules'
+2018-08-22 09:23:02.886 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:25:55.873 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:25:55.932 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:27:37.623 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:27:37.671 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:29:04.806 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:29:04.843 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:31:35.609 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:31:35.661 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'GoatBarnRules.rules'
+2018-08-22 09:33:49.437 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'AwayRules.rules'
+2018-08-22 09:33:49.493 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'AwayRules.rules'
+2018-08-22 09:43:38.228 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.131
+2018-08-22 09:46:10.095 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:47:09.583 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:48:28.534 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.131
+2018-08-22 09:48:49.327 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.125
+2018-08-22 09:51:15.857 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:52:27.336 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:53:31.330 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.131
+2018-08-22 09:53:49.761 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:54:18.331 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:54:50.895 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 09:57:36.997 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.131
+2018-08-22 10:00:44.283 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 10:08:25.597 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 10:09:32.979 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 10:28:25.306 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 1327053 failed: null
+2018-08-22 10:28:33.307 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 1327111 failed: null
+2018-08-22 11:18:21.762 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 1371891 failed: null
+2018-08-22 11:26:52.239 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 0.0.0.0
+2018-08-22 11:58:15.604 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 1405671 failed: null
+2018-08-22 11:58:29.550 [WARN ] [io.openhabcloud.internal.CloudClient] - Jetty request 1405690 failed: null
+2018-08-22 12:11:22.429 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.143
+2018-08-22 12:21:04.781 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.117
+2018-08-22 12:39:09.714 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.1.107
+2018-08-22 12:45:07.339 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2018-08-22 12:45:22.835 [WARN ] [ome.core.thing.internal.ThingManager] - Disposing handler for thing 'nest:account:cc11b20b' takes more than 5000ms.
+2018-08-22 12:45:33.350 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2018-08-22 12:45:33.350 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 55d2fb07-6b0c-4a4c-8cf0-36d869879655, base URL = http://localhost:8080)
+2018-08-22 12:45:33.381 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2018-08-22 12:45:33.397 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2018-08-22 12:45:33.522 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2018-08-22 12:45:33.522 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2018-08-22 12:45:33.522 [INFO ] [er.internal.HomeBuilderDashboardTile] - Stopped Home Builder
+2018-08-22 12:45:33.522 [INFO ] [.dashboard.internal.DashboardService] - Stopped dashboard

@@ -1,0 +1,33 @@
+
+
+//ItemType ItemName "ItemDescription" <ItemIcon> { ItemToThingChannelLink }
+
+Switch Chads_Mobile "Chads Mobile" <wifi> { channel="network:device:192_168_1_120:online" }
+Switch DeviceprovidingaWebserver "My wallplug" <goat> { channel="network:servicedevice:192_168_1_1_80:online" }
+////////////////////////// NEst products are defined here.
+Number Home_Temp "Temperature [JS(Celsius_To_Farenheight.js):%s F]"  <temperature> { channel="nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:temperature" }
+Number Humidity <humidity> { channel="nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:humidity" }
+Switch Web_Camera <camera> { channel="nest:camera:cc11b20b:qAt68xc4sm1VuNjJeOJkotRo1zYu9wfO7yUbc2ZsqZW6McQQUR9QyA:streaming" }
+String Mode <groundfloor> { channel="nest:thermostat:60c89b7f:tb4rid59zOayu2dxyO8AunxIzE-AtqZC:mode" } 
+String Away { channel="nest:structure:60c89b7f:-s-1j2_r1yczodUcSPBWAbjZqbA9f-cspuyTKngZC_278vNhw1f1Gw:away" }
+
+/////////////////////////////Goat Barn is defined here!
+
+//Switch Goat_Heat_Lamp <price> { channel="tplinksmarthome:hs105:5E10E3:switch" }
+//Switch Barn_Lights <price> { channel="tplinksmarthome:hs105:5E10E3:switch" }// When i get my switch i will bind and add here
+Switch Goat_Heat_Lamp "Heat Lights" <light> /*(gKitchen)*/ [ "Lighting" ] { channel="tplinksmarthome:hs105:5E10E3:switch" }
+Switch Barn_Lights "Barn Lights" <light> /*(gBedroom)*/ [ "Lighting" ] { channel="tplinksmarthome:hs200:12E98B:switch" }  
+
+/////////////////////////////Master bedroom is defined here!
+Switch Bed_Light <light> { channel="network:device:192_168_1_120:online" }
+
+///////Weather Temp
+Number Temperature_Outside "Outside Temperature [JS(Celsius_To_Farenheight.js):%s F]" <temperature> { channel="yahooweather:weather:98ac930e:temperature" }
+
+//////Sunrise and Sunset
+DateTime Sunrise_Time "Sunrise [%1$tH:%1$tM]" { channel="astro:sun:76dc9c2a:rise#start" }
+DateTime Sunset_Time  "Sunset [%1$tH:%1$tM]" { channel="astro:sun:76dc9c2a:set#start" }
+
+//Flood Lights
+Switch Flood_Lights <light> { channel="tplinksmarthome:hs105:5E10E3:switch"} //When i get my switch i will bind and add here
+

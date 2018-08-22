@@ -1,0 +1,27 @@
+{
+  "samsungtv:tv:55c6e633_ad06_72ca_eb03_41d703349bdf": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "samsungtv",
+          "tv",
+          "55c6e633_ad06_72ca_eb03_41d703349bdf"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "samsungtv",
+          "tv"
+        ]
+      },
+      "properties": {
+        "hostName": "192.168.1.128"
+      },
+      "flag": "NEW",
+      "label": "[TV]UN55D6000",
+      "timestamp": 1534702476553,
+      "timeToLive": -1
+    }
+  }
+}

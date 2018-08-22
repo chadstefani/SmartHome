@@ -1,0 +1,45 @@
+{
+  "05f42099-f976-44d6-80df-b07eda2dd5fa": {
+    "class": "org.eclipse.smarthome.automation.Rule",
+    "value": {
+      "triggers": [
+        {
+          "id": "1",
+          "label": "an item state changes",
+          "description": "This triggers the rule if an item state has changed.",
+          "configuration": {
+            "properties": {
+              "itemName": "Bed_Light",
+              "state": "ON",
+              "previousState": "OFF"
+            }
+          },
+          "type": "core.ItemStateChangeTrigger"
+        }
+      ],
+      "conditions": [],
+      "actions": [
+        {
+          "id": "2",
+          "label": "send a command",
+          "description": "Sends a command to a specified item.",
+          "configuration": {
+            "properties": {
+              "itemName": "Goat_Heat_Lamp",
+              "command": "ON"
+            }
+          },
+          "type": "core.ItemCommandAction"
+        }
+      ],
+      "configuration": {
+        "properties": {}
+      },
+      "configDescriptions": [],
+      "uid": "05f42099-f976-44d6-80df-b07eda2dd5fa",
+      "name": "default",
+      "tags": [],
+      "visibility": "VISIBLE"
+    }
+  }
+}

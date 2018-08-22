@@ -1,0 +1,6 @@
+2018-05-30 22:49:27.004 [INFO ] [as.modules.audit.LogAuditLoginModule] - Authentication attempt - openhab
+2018-05-30 22:49:27.006 [INFO ] [as.modules.audit.LogAuditLoginModule] - Authentication failed - openhab
+2018-05-30 22:49:27.041 [INFO ] [as.modules.audit.LogAuditLoginModule] - Authentication attempt - openhab
+2018-05-30 22:49:27.042 [INFO ] [as.modules.audit.LogAuditLoginModule] - Authentication failed - openhab
+2018-05-30 22:49:42.497 [INFO ] [as.modules.audit.LogAuditLoginModule] - Authentication attempt - openhab
+2018-05-30 22:49:42.499 [INFO ] [as.modules.audit.LogAuditLoginModule] - Authentication succeeded - openhab
